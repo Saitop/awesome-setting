@@ -51,6 +51,7 @@ alias cppcompile='c++ -std=c++11 -stdlib=libc++'
 export PATH="$HOME/.jenv/bin:$PATH"
 eval "$(jenv init -)"
 
+# Java
 # export java home
 export JAVA_HOME="`/usr/libexec/java_home -v 1.8`"
 
@@ -59,7 +60,7 @@ export PATH=$PATH:/Applications/Postgres.app/Contents/Versions/latest/bin
 # postgres url
 export DATABASE_URL=postgres:///$(whoami)
 
-# go path
+# go
 export GOPATH=$HOME/go
 export GOROOT=/usr/local/opt/go/libexec
 export PATH=$PATH:$GOPATH/bin
