@@ -51,7 +51,7 @@ ZSH_THEME="robbyrussell"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git colored-man colorize github jira vagrant virtualenv pip python brew osx zsh-syntax-highlighting autojump)
+plugins=(git colored-man colorize github jira vagrant virtualenv pip python osx zsh-syntax-highlighting autojump)
 
 source $ZSH/oh-my-zsh.sh
 
