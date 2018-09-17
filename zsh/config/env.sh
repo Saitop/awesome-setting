@@ -56,5 +56,6 @@ export DATABASE_URL=postgres:///$(whoami)
 
 # go path
 export GOPATH=$HOME/go
-export PATH=$PATH:$HOME/go/bin:/usr/local/go/bin
-
+export GOROOT=/usr/local/opt/go/libexec
+export PATH=$PATH:$GOPATH/bin
+export PATH=$PATH:$GOROOT/bin
